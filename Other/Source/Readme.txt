@@ -1,35 +1,32 @@
 The base application's source code is available from the portable app's
-homepage listed in the help.html file.
+homepage listed in the help.html file (if applicable).
 
 Details of most other things are available there as well.
 
 LICENSE
 =======
 
-This package and its launcher are released under the GPL. The launcher is the
-PortableApps.com Launcher, available with full source and documentation from
-http://portableapps.com/development. We request that developers using the
+This package's installer and launcher are released under the GPL. The launcher
+is the PortableApps.com Launcher, available with full source and documentation
+from http://portableapps.com/development. We request that developers using the
 PortableApps.com Launcher please leave this directory intact and unchanged.
 
 USER CONFIGURATION
 ==================
 
-(For this section, AppNamePortable is the executable base file name, normally
-the App ID of the package)
-
 Some configuration in the PortableApps.com Launcher can be overridden by the
-user in an INI file next to AppNamePortable.exe called AppNamePortable.ini.  If
-you are happy with the default options, it is not necessary, though.  There is
-an example INI included with this package to get you started.  To use it, copy
-PortableApps.comLauncher.ini from this directory to AppNamePortable.ini next to
-AppNamePortable.exe. You will need to change the INI header (the
-"[AppNamePortable]" bit) to match the file name.  The options in the INI file
-are as follows:
+user in an INI file next to FocusWriterPortable.exe called FocusWriterPortable.ini.
+If you are happy with the default options, it is not necessary, though.  There
+is an example INI included with this package to get you started.  To use it,
+copy AppNamePortable.ini from this directory to FocusWriterPortable.ini next to
+FocusWriterPortable.exe. The options in the INI file are as follows:
 
-[AppNamePortable]
-AdditionalParameters=
-DisableSplashScreen=false
-RunLocally=false
+   AdditionalParameters=
+   DisableSplashScreen=false
+   RunLocally=false
+
+(There is no need for an INI header in this file; if you have one, though, it
+won't damage anything.)
 
 The AdditionalParameters entry allows you to pass additional command-line
 parameters to the application.
